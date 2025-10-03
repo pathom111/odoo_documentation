@@ -276,6 +276,33 @@ Upon signing the document, the signer completes the :guilabel:`Signature` field 
 clicking on :guilabel:`Validate & Send Completed Document`, triggering a
 :guilabel:`Final verification` page where authentication via itsme® is required.
 
+.. _sign/Aadhaar:
+
+Aadhaar eSign
+~~~~~~~~~~~~~
+
+Aadhaar eSign allows signers in India to digitally sign documents using their Aadhaar number and
+:abbr:`OTP (One Time Password)` verification. This provides a secure and legally valid way to complete signatures directly
+within Odoo Sign.
+
+To enable Aadhar eSign go to :menuselection:`Sign -> Configuration -> Settings` and toggle
+on :icon:`fa-toggle-on` :guilabel:`Sign with Aadhar eSign`.
+
+Request signer authentication through Aadhaar eSign
+
+Once you’ve uploaded your document, click the :icon:`fa-ellipsis-vvertical` ellipsis on the signer’s box you want to
+authenticate. Click :icon:`fa-pencil-square-o` :guilabel:`edit`, then, in the Signer Edition pop-up, on the
+:guilabel:`Authentication` field, select :guilabel:`Aadhaar eSign`. Click :guilabel:`Save`.
+
+Sign with Aadhaar eSign
+
+Upon signing the document, the signer completes the :guilabel:`Signature` field and proceeds by clicking
+:guilabel:`Validate & Send Completed Document`, triggering a :guilabel:`Final verification` page where authentication
+via Aadhaar is required.
+
+.. note::
+   The digital certification from eMudhra is available in the downloaded document.
+
 Signatory hash
 ==============
 
