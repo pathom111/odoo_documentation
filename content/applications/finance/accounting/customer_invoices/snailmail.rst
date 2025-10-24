@@ -14,9 +14,6 @@ Configuration
 Go to :menuselection:`Accounting --> Configuration --> Settings --> Customer invoices` section to
 activate :guilabel:`Snailmail`.
 
-To make it a by-default feature, select :guilabel:`Send by Post` in the :guilabel:`Default Sending
-Options` section.
-
 .. image:: snailmail/setup-snailmail.png
    :align: center
    :alt: Under settings enable the snailmail feature in Odoo Accounting
@@ -24,7 +21,7 @@ Options` section.
 Send invoices by post
 =====================
 
-Open your invoice, click on :guilabel:`Send & Print` and select :guilabel:`Send by Post`. Make sure
+Open your invoice, click on :guilabel:`Send` and select :guilabel:`by Post`. Make sure
 your customer’s address is set correctly, including the country, before sending the letter.
 
 .. important::
@@ -52,4 +49,5 @@ invoices: Snailmail`, click on :guilabel:`Buy credits`, or go to :menuselection:
 Purchases: Odoo IAP`, and click on :guilabel:`View my Services`.
 
 .. seealso::
-   `Odoo's IAP Privacy Policy <https://iap.odoo.com/privacy#header_4>`_
+   - :ref:`accounting/invoice/sending`
+   - `Odoo's IAP Privacy Policy <https://iap.odoo.com/privacy#header_4>`_
