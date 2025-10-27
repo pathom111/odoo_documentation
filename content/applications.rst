@@ -25,3 +25,4 @@ Discover our user guides and configuration tutorials per application.
     applications/productivity
     applications/studio
     applications/general
+    applications/ai
